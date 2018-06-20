@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html {
 	width: 100%;
 	height: 100%;
@@ -105,4 +106,111 @@ footer {
 	font-size: 16px;
 	width: 500px;
 	display: block;
+=======
+html {
+	width: 100%;
+	height: 100%;
+	border: solid 15px white;
+}
+
+body {
+	width: 100%;
+	min-width: 1024px; 
+	height: 80%;
+	background: #3b3f45;
+}
+
+header {
+	background: #4a4f56;
+	color: #eb7e7e;
+	text-align: center;
+	width 400px;
+	height: 100px;
+}
+
+h1 {
+	margin: 0;
+}
+
+.wrapper {
+	background: #4a4f56;
+}
+
+* {
+	transition: all .1s ease-in;
+}
+
+section {
+	padding: 20px 0;
+	background: #3b3f45;
+}
+
+ul {
+	margin: 0 auto;
+	width: 500px;
+	-webkit-padding-start: 0;
+}
+
+li {
+	background: #88839e;
+	height: 40px;
+	width: 100%;
+	box-sizing: border-box;
+	text-align: left;
+	display: block;
+	padding: 10px;
+	font-size: 16px;
+	border: 2px solid transparent;
+}
+
+li:nth-child(1n){
+	background: #88839e;
+}
+
+li:nth-child(2n+2){
+	background: #7a7593;
+}
+
+li:hover {
+	background: #625e77;
+	border-color: white;
+}
+
+input:checked + label b {
+	text-decoration: line-through;
+	text-decoration-color: black;
+}
+
+form {
+	background: #3b3f45; 
+}
+
+div b {
+	color: white;
+	font-family: sans-serif;
+}
+
+span {
+	color: #9eb6d6;
+}
+
+span::before {
+	content: "(";
+}
+
+span::after {
+	content: ")";
+}
+
+footer {
+	background: #4a4f56;
+	color: #eb7e7e;
+	margin: 20px auto 0;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	font-size: 16px;
+	width: 500px;
+	display: block;
+>>>>>>> 7845d89aff4b8b76b96bb5bb4cacf82286346153
 }
